@@ -1,0 +1,17 @@
+1. Memory leak? 
+a memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in such a way that memory which is no longer needed is not released.
+
+2. app thinning? 
+App thinning is a concept for modern day interactive apps where there are a lot of resources. The App Store and OS install the app according to the device, with a minimal footprint. This helps in making the app which occupies less space, are easy to download and make use of all features.
+
+3. Benefits Swift over Objective-C?
+- faster
+- safer
+- more readable
+- less code
+- open source
+- we can design the app directly to the phone simulator
+- Apple's ongoing focus
+
+4. GCD? 
+Sebuah method supaya ngoding di swift bisa asynchronus. Maksudnya 1 function bisa melakukan banyak hal tanpa harus menunggu perintah paling atas di sebuah function selesai. 
