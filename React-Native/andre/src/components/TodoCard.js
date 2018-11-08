@@ -49,7 +49,7 @@ export class TodoCard extends Component {
                       fontSize: 15
                     }}
                   >
-                   <Text style={{fontWeight: "bold"}}>To: </Text>: User {this.props.data.userId}
+                   <Text style={{fontWeight: "bold"}}>To: </Text> User {this.props.data.userId}
                   </Text>
                   <Text>
                     <Text style={{fontWeight: "bold"}}>Task: </Text>{this.props.data.title}
