@@ -19,6 +19,7 @@ import store from "./src/store/index";
 
 import Home from "./src/components/Home";
 import Add from "./src/components/Add"
+import Detail from './src/components/Detail'
 
 export default class App extends Component {
   render() {
@@ -51,7 +52,8 @@ const homeStackNav = createStackNavigator({
       headerBackTitle: "A much too long text for back button from B to Home",
       headerTruncatedBackTitle: `Home`
     })
-  }
+  },
+  Detail
 });
 
 const addStackNav = createStackNavigator({
@@ -76,7 +78,6 @@ const addStackNav = createStackNavigator({
 const BottomNav = createBottomTabNavigator({
   Home: homeStackNav,
   Add: addStackNav,
-  // History: HistoryStack
 }, {
   navigationOptions: ({ navigation }) => ({
     tabBarIcon: ({ focused, horizontal, tintColor }) => {

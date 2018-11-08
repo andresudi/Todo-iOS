@@ -30,7 +30,7 @@ export class Add extends Component {
   };
 
   addTodo = () => {
-      console.log('kepencet')
+    console.log("kepencet");
     if (this.state.userId === "" || this.state.title === "") {
       alert("all data must be filled");
     } else {
@@ -40,17 +40,17 @@ export class Add extends Component {
           title: this.state.title
         })
         .then(() => {
-            console.log('success add todo');
-            
-        //   Alert.alert("Info", `Successfully add todo`, [
-        //     {
-        //       text: "OK",
-        //       onPress: () => {
-        //         this.props.getTodo();
-        //         // this.props.navigation.state.params.navigate("Home");
-        //       }
-        //     }
-        //   ]);
+          console.log("success add todo");
+          alert("success add new todo");
+          //   Alert.alert("Info", `Successfully add todo`, [
+          //     {
+          //       text: "OK",
+          //       onPress: () => {
+          //         this.props.getTodo();
+          //         // this.props.navigation.state.params.navigate("Home");
+          //       }
+          //     }
+          //   ]);
         })
         .catch(err => {
           console.log(err);
