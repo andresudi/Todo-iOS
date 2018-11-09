@@ -83,7 +83,7 @@ export class Add extends Component {
             <Button
               primary
               style={{ marginRight: 20 }}
-              onPress={this.addTodo()}
+              onPress={() => this.addTodo()}
             >
               <Text> Add Task</Text>
             </Button>

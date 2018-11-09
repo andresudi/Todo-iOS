@@ -85,12 +85,12 @@ class Detail extends Component {
             </CardItem>
             <CardItem>
               <Content>
-                <Button full warning onPress={this.editTodo()}>
+                <Button full warning onPress={() => this.editTodo()}>
                   <Text style={{ fontWeight: "bold", color: "white" }}>
                     Edit
                   </Text>
                 </Button>
-                <Button full danger onPress={this.deleteTodo()}>
+                <Button full danger onPress={ () =>this.deleteTodo()}>
                   <Text style={{ fontWeight: "bold", color: "white" }}>
                     Delete
                   </Text>
